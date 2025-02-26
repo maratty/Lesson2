@@ -1,10 +1,10 @@
 package com.zad;
 
 class Park {
-    private String time = "с 10.00 до 22.00";
-    private String price = "100 рублей";
-    private String adress = "Волшебная, 100";
-    private String age = "с 5 до 10 лет";
+    String time = "с 10.00 до 22.00";
+    String price = "100 рублей";
+    String adress = "Волшебная, 100";
+    String age = "с 5 до 10 лет";
 
     public Park() {
     }
