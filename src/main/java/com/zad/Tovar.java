@@ -17,7 +17,7 @@ public class Tovar {
 
         Tovar telefon = new Tovar("телефон", 2024, "nokia", "Китай", 1000, "забронировано");
 
-        System.out.println("Наименование товара:" + telefon.name + "  дата производства:" + telefon.date + " производитель:" + telefon.made + " страна происхождения:" + telefon.country + " цена:" + telefon.price + " состояние бронирования покупателе:" + telefon.booking);
+        System.out.println("Наименование товара:" + telefon.name + "Дата производства:" + telefon.date + "Производитель:" + telefon.made + "Страна происхождения:" + telefon.country + "Цена:" + telefon.price + "Состояние бронирования покупателе:" + telefon.booking);
     }
 }
 
