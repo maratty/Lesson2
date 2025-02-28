@@ -18,6 +18,9 @@ public class Main{
     public static void main(String[] args) {
         Park myOuter = new Park();
         Park.Inner myInner = myOuter.new Inner();
+        System.out.println(myInner.nameIn + myOuter.name);
         System.out.println(myInner.timeIn + myOuter.time);
+        System.out.println(myInner.priceIn + myOuter.price);
+
     }
 }
