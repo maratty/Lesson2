@@ -1,6 +1,6 @@
 package com.zad;
 
-public class Tovar {
+    class Tovar {
     String name, made, country, booking;
     int date, price;
 
